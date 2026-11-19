@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -678,7 +678,7 @@
         "uuid": "52b09fd8-b203-4069-a228-b4b90927dee7"
       }
     ],
-    "used_designators": "#PWR3,#PWR11,C2-4,J2,R8,TP1-4",
+    "used_designators": "#PWR2-3,#PWR11-13,C2-6,J2,R8-9,TP1-4,U2-3",
     "variants": []
   },
   "sheets": [

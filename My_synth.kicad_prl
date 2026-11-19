@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      113,
+      76,
+      70,
+      78,
+      63,
+      68,
       79,
-      113,
-      113,
-      113,
-      83,
-      113,
-      113
+      70,
+      66,
+      46,
+      721
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -118,15 +118,27 @@
   "project": {
     "files": [
       {
-        "name": "My_synth.kicad_sch",
-        "open": true,
+        "name": "My_synth.kicad_pcb",
+        "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 1938,
-          "size_y": 1038
+          "pos_x": 1912,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
+        }
+      },
+      {
+        "name": "My_synth.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 1912,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
         }
       }
     ]
