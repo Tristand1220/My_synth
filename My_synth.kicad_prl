@@ -56,8 +56,8 @@
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "tristand1220",
     "ssh_key": ""
   },
   "meta": {
@@ -92,14 +92,14 @@
     "col_widths": [
       76,
       70,
-      78,
-      63,
-      68,
-      79,
-      70,
-      66,
+      86,
+      71,
+      76,
+      89,
+      77,
+      74,
       46,
-      721
+      42
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -116,32 +116,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "My_synth.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1912,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "My_synth.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1912,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],

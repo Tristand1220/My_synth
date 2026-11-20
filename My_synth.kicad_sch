@@ -9,199 +9,6 @@
 		(date "2026-10-05")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Audio:LME49600"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 6.35 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LME49600"
-				(at 6.35 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lme49600.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio buffer amplifier"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LME49600_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LME49600_1_1"
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "BW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:LM741"
 			(pin_names
 				(offset 0.127)
@@ -2419,10 +2226,6 @@
 		(uuid "f591fd1b-1304-449a-bdf6-129af22de0f9")
 	)
 	(no_connect
-		(at 158.75 158.75)
-		(uuid "41b8b046-9fa2-484a-9e45-29a19e8e7b76")
-	)
-	(no_connect
 		(at 72.39 127)
 		(uuid "4770d220-c60e-4575-b883-16853a037fd5")
 	)
@@ -2433,18 +2236,6 @@
 	(no_connect
 		(at 92.71 114.3)
 		(uuid "c5b9208f-c6d8-4f03-ba0d-6704983595dd")
-	)
-	(no_connect
-		(at 175.26 171.45)
-		(uuid "d085a1a9-bc28-4247-8c54-1179cf44a5e5")
-	)
-	(no_connect
-		(at 154.94 179.07)
-		(uuid "d9e24eed-6a16-4bb3-94d9-df667371ac84")
-	)
-	(no_connect
-		(at 152.4 163.83)
-		(uuid "e5f59001-c5b0-4bd3-a5a9-3409a56566c5")
 	)
 	(wire
 		(pts
@@ -2548,16 +2339,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 171.45) (xy 147.32 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dabec13-04c3-4ee6-ad67-fbec25808e39")
-	)
-	(wire
-		(pts
 			(xy 44.45 132.08) (xy 62.23 132.08)
 		)
 		(stroke
@@ -2635,16 +2416,6 @@
 			(type default)
 		)
 		(uuid "564f45b6-4d9d-4733-b7b5-c55d9965d05b")
-	)
-	(wire
-		(pts
-			(xy 162.56 171.45) (xy 167.64 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4ea136-5bc6-47ca-826b-73dea56d2672")
 	)
 	(wire
 		(pts
@@ -2898,16 +2669,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 158.75) (xy 151.13 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7508914-b89f-4329-a8f0-0e7e6a7673ef")
-	)
-	(wire
-		(pts
 			(xy 46.99 46.99) (xy 46.99 63.5)
 		)
 		(stroke
@@ -2935,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "dce31e6c-99ba-4cd5-bf23-e4f3ed45c80c")
-	)
-	(wire
-		(pts
-			(xy 152.4 179.07) (xy 152.4 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e626f94d-ecae-47b9-8b57-661d94beecbb")
 	)
 	(wire
 		(pts
@@ -3789,86 +3540,6 @@
 			(project "My_synth"
 				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "48f33fb4-02a6-46f4-aab4-b1c6a1a3393b")
-		(property "Reference" "C5"
-			(at 171.45 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220 μF"
-			(at 171.45 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 175.26 170.4848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080343009.pdf"
-			(at 171.45 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5874d31-88f2-4e31-931b-6097bb7ad9a3")
-		)
-		(pin "2"
-			(uuid "b560bf73-01ce-41e5-89bd-f10784e36089")
-		)
-		(instances
-			(project "My_synth"
-				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4749,84 +4420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "88c6c669-516d-4acd-b6b5-91853b51f41f")
-		(property "Reference" "#PWR013"
-			(at 152.4 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a04f5871-b81f-4e70-93d2-cd4682a7594f")
-		)
-		(instances
-			(project "My_synth"
-				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 67.31 127 90)
 		(unit 1)
@@ -5064,96 +4657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Audio:LME49600")
-		(at 154.94 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a19809f2-7037-4b02-a492-1c33c02e6498")
-		(property "Reference" "U2"
-			(at 166.37 165.0298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LME49600"
-			(at 166.37 167.5698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 154.94 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lme49600.pdf"
-			(at 154.94 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263"
-			(at 154.94 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "5c0bea20-eb03-4e3a-b48c-ad0931726302")
-		)
-		(pin "2"
-			(uuid "8480cc93-783a-4d46-a021-53b67f654af2")
-		)
-		(pin "4"
-			(uuid "cf3aea4a-4e20-4b12-9a47-7ff2d6756403")
-		)
-		(pin "1"
-			(uuid "1128f811-1606-4750-bc23-45e286148271")
-		)
-		(pin "3"
-			(uuid "060cbe67-ca87-4d5a-8cf0-77ad437d2de5")
-		)
-		(instances
-			(project "My_synth"
-				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 46.99 67.31 0)
 		(unit 1)
@@ -5229,86 +4732,6 @@
 			(project "My_synth"
 				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 154.94 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b629a86c-2230-4a86-bb39-f56c03238fea")
-		(property "Reference" "R9"
-			(at 154.94 152.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0hm"
-			(at 154.94 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 155.194 157.734 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 154.94 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e59a35aa-4af9-4f82-86df-0003bc76ab20")
-		)
-		(pin "1"
-			(uuid "df9ce80a-6a34-48d1-a11a-5072a7a0fd75")
-		)
-		(instances
-			(project "My_synth"
-				(path "/52b09fd8-b203-4069-a228-b4b90927dee7"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-009a.pdf"
 			(at 67.31 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5979,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "1MΩ"
 			(at 111.76 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
