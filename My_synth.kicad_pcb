@@ -1749,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB181-GTR.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2001,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB181-GTR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3938,7 +3938,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-009a.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
